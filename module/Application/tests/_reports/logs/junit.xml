@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="15" assertions="39" failures="1" errors="0" time="16.947969">
+    <testsuite name="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" tests="8" assertions="22" failures="1" errors="0" time="10.649610">
+      <testcase name="testGetInputFilter" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="14" assertions="1" time="2.292131"/>
+      <testcase name="testInputFilterValid" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="26" assertions="8" time="0.889051"/>
+      <testcase name="testInputFilterInvalido" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="43" assertions="2" time="0.921053">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">Application\Model\CommentTest::testInputFilterInvalido
+Failed asserting that exception message 'Input inválido: email = email_invalido' contains 'Input invÃ¡lido: email ='.
+
+</failure>
+      </testcase>
+      <testcase name="testInsert" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="53" assertions="2" time="1.306074"/>
+      <testcase name="testInsertInvalido" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="68" assertions="1" time="1.114064"/>
+      <testcase name="testUpdate" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="77" assertions="3" time="1.558089"/>
+      <testcase name="testUpdateInvalido" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="102" assertions="2" time="1.383080"/>
+      <testcase name="testDelete" class="Application\Model\CommentTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\CommentTest.php" line="119" assertions="3" time="1.186068"/>
+    </testsuite>
+    <testsuite name="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" tests="7" assertions="17" failures="0" errors="0" time="6.298359">
+      <testcase name="testGetInputFilter" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="13" assertions="1" time="0.808046"/>
+      <testcase name="testInputFilterValid" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="25" assertions="5" time="0.729041"/>
+      <testcase name="testInputFilterInvalido" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="39" assertions="1" time="0.875050"/>
+      <testcase name="testInsert" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="52" assertions="2" time="0.861049"/>
+      <testcase name="testInsertInvalido" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="68" assertions="2" time="0.888051"/>
+      <testcase name="testUpdate" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="77" assertions="3" time="1.112063"/>
+      <testcase name="testDelete" class="Application\Model\PostTest" file="C:\wamp\www\cursos\sargentozf2\zf2napratica\module\Application\tests\src\Application\Model\PostTest.php" line="101" assertions="3" time="1.025059"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
