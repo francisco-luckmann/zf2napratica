@@ -5,6 +5,7 @@ return array(
     'controllers' => array( //add module controllers
         'invokables' => array(
             'Admin\Controller\Index' => 'Admin\Controller\IndexController',
+            'Admin\Controller\Auth' => 'Admin\Controller\AuthController',
         ),
     ),
 
@@ -18,7 +19,7 @@ return array(
                         '__NAMESPACE__' => 'Admin\Controller',
                         'controller'    => 'Index',
                         'action'        => 'index',
-                        'module'        => 'skel'
+                        'module'        => 'admin'
                     ),
                 ),
                 'may_terminate' => true,
