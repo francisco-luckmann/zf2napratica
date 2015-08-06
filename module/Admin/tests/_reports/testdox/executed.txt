@@ -1,3 +1,10 @@
+Admin\Controller\AuthController
+ [x]  404
+ [x] Index action login form
+ [x] Login invalid method
+ [x] Login
+ [x] Logout
+
 Admin\Model\User
  [x] Get input filter
  [x] Input filter valid
@@ -7,4 +14,12 @@ Admin\Model\User
  [x] Insert invalido
  [x] Update
  [x] Delete
+
+Admin\Service\Auth
+ [ ] Authenticate without params
+ [x] Authenticate empty params
+ [x] Authenticate invalid parameters
+ [x] Authenticate invalid passord
+ [x] Authenticate valid params
+ [x] Logout
 
